@@ -1,0 +1,33 @@
+$(function(){
+	
+
+
+	//搜索输入框滑出前总宽度
+	$("body,html").click(function(){
+			$(".search-window").animate({"width":"28px"});
+			$(".searchbtn").stop(true,true).fadeIn();
+			$(".navlist").slideUp();
+	});
+	
+	
+	//搜索输入框滑出效果及滑出后总宽度
+	$(".searchbtn").click(function(){
+			$(this).stop(true,true).fadeOut();
+			$(".search-window").stop(true,true).animate({"width":"110px"});
+			return false;
+	});	
+	$(".search-title").click(function(){
+			return false;
+	});
+	
+	/*栏目图片高度*/
+	var $lbannerImg = $(".l-banner").find("img");
+	var imgsrc = $lbannerImg.attr("src");
+	if(imgsrc == "" || imgsrc == undefined){
+		var imgsrc = $lbannerImg.data("imgsrc");
+	}
+	//$lbannerImg.attr("src",imgsrc);
+	$(".l-banner").css("backgroundImage","url("+imgsrc+")");
+	
+	
+});

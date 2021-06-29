@@ -1,0 +1,301 @@
+
+/* Base Reset */
+* {margin: 0;padding: 0;}
+html {-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;overflow-y: scroll; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+:focus { outline:0;}
+img { border:0;}
+a img { vertical-align: middle;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+.clear { width:100%; height:0; line-height:0; font-size:0; overflow:hidden; clear:both; display:block; _display:inline;}
+.none { display:none;}
+.hidden { visibility:hidden;}
+.clearfix:after{clear: both;content: ".";display: block;height: 0;visibility: hidden;}
+.clearfix{display: block; *zoom:1;}
+
+body,p { font:16px/1 "Helvetica Neue","Microsoft YaHei",  Helvetica, Arial, sans-serif; color: #333; }
+body { background:#ffffff;}
+a{ text-decoration: none; color: #333;}
+a:hover{ text-decoration: none; color: #2f58b2; }
+.wp-wrapper { width: 100%; background-color: #fff;}
+.wp-wrapper .wp-inner {width:auto;max-width: 1200px;margin:0 auto;}
+.wp-wrapper .wp-topic { width:auto; max-width: 500px; margin:0 auto;}
+/**头部**/
+.wp-header {}
+/*** [站点LOGO]*/
+.logo-panel { text-align: center;}
+.logo-window { padding: 5px 0;}
+.logo-window img { vertical-align: middle;}
+
+/**主导航**/
+.wp-navi { background: none; height:34px;}
+
+/**焦点图片**/
+.wp-focus {}
+.wp-focus .wp-inner { max-width:100%;}
+.fcous-panel { width: 100%;}
+.fcous-panel .focus-window { width: 100%; overflow: hidden;}
+
+/*** 主体*/
+.wp-container { }
+
+.wp-main-page .content { width:100%;}
+.wp-main-page .content1 {/* width:1170px; */margin:0 auto;}
+.wp-wrapper .wp-topic .cbox-center1 { background: rgba(67,100,221,.7);}
+/*.wp-main-page .content1 .cbox-center2 { width:216px; float:left;}
+.wp-main-page .content1 .cbox-center3 { width:216px; float:left; margin-left:30px;}
+.wp-main-page .content1 .cbox-center4 { width:216px; float:left; margin-left:30px;}
+.wp-main-page .content1 .cbox-center5 { width:216px; float:left; margin-left:30px;}
+.wp-main-page .content1 .cbox-center6 { width:216px; float:left; margin-left:30px;}*/
+.wp-main-page .content1 .cbox-center{width:20%;margin:10px 0px 30px;float:left;}
+.wp-main-page .content1 .cbox-center .wp-post{margin:0 15px;}
+.wp-main-page .content1 .cbox-center img{width:100%!important;}
+
+.wp-post {margin-bottom: 10px;}
+.wp-post .post-head { height: 33px; margin-bottom:0px;}
+.wp-post .post-head .head-bar { position: relative;}
+.wp-post .post-head .post-title { display: inline-block; height: 32px; line-height: 32px; font-size: 16px; font-weight: normal;}
+.wp-post .post-head .post-more { height: 20px; line-height: 20px; position: absolute; right: 0; top: 50%; margin-top: -10px;}
+.wp-post .post-head .post-more a { color: #424242; text-decoration: none;}
+.wp-post .post-body {}
+.post-news .news-item { height: 24px; line-height: 24px; vertical-align: top; overflow: hidden; position: relative;}
+.post-news .news-item .meta-title { display: block; margin-right: 80px; overflow: hidden;}
+.post-news .news-item .meta-time { display: block; text-align: right; width: 80px; height: 20px; line-height: 20px; position: absolute; right: 0; top:50%; margin-top: -10px; color: #999; }
+
+
+/**底部**/
+.wp-footer { background: #3c3c3c;}
+.wp-footer .wp-inner {}
+.wp-footer .wp-inner .footer p { color: #fff; line-height: 30px; font-size: 12px; text-align: center; font-family:"Microsoft YaHei";}
+
+
+.time {
+	width:90px;
+	float:left;
+	border:0px solid #eee;
+	margin-right:15px;
+	margin-bottom:5px;
+	
+}
+.time .t1 {
+	display:block;
+	width:45px;
+	float:left;
+	height:30px;
+	line-height:45px;
+	color:#797979;
+	font-size:35px;
+	text-align:center;
+	font-family: "Adobe 黑体 Std R" ;
+	padding-top:10px;
+
+}
+.time .t2 {
+	display:inline-block;
+	height:15px;
+	width:45px;	
+	float:right;	
+	line-height:15px;
+	color:#999999;
+	font-size:14px;
+	text-align:center;
+	padding-top:10px;
+}
+.time .t3 {
+	display:inline-block;
+	height:28px;
+	line-height:28px;
+	color:#999999;
+	font-size:14px;
+	text-align:center;
+	width: 45px;
+    float: right;
+}
+.time .t4 {
+	padding-left: 20px;
+    line-height: 4px;
+	text-align:center;
+	padding:0px;
+	width:45px;
+	float:right;
+}
+.a1{
+	padding-top:10px;
+	}
+.a1 a{
+	line-height:24px;
+	}
+.line{
+	width:390px;
+	border-bottom:1px dashed #bcbcbc;
+	height:66px;
+	}
+.aa1 a{
+	line-height:24px;
+	padding-left:14px;
+	}
+.tt1{
+	font-size:14px;
+	line-height:24px;
+	width:70px;
+	text-align:right;
+	display:inline-block;	
+	}
+.tt2{
+	font-size:14px;
+	line-height:24px;
+	width:120px;
+	text-align:right;
+	display:inline-block;	
+	}
+.line2{
+	height:28px;
+	}
+
+.wp_search .search {
+    background: url(images/search2020.png);
+    width: 30px;
+    height: 28px;
+    border: 0px;
+    cursor: pointer;
+}
+.wp_search {
+    background: url(images/search_block2020.png) no-repeat;
+    width: 223px;
+    height: 30px;
+}
+
+
+.focus_title{
+	max-width:800px;
+	padding-left:25px;
+	padding-top:30px;
+	padding-bottom:15px;
+	padding-right: 30px;
+	}
+.w6_title a{
+	color:#FFF;
+	font-size:36px;
+	font-weight:bold;
+	}
+.w6_title_2 a{
+	color:#FFF;
+	font-size:18px;
+	line-height:55px;
+	}
+#wp_news_w21 .wp_article_list .list_item ,#wp_news_w22 .wp_article_list .list_item{
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 0px dashed #ccc;
+    vertical-align: top;
+	background:url(images/page_coin2020.jpg)  no-repeat 0px 20px ;
+}
+#wp_news_w21 .wp_article_list .list_item span a,#wp_news_w22 .wp_article_list .list_item span a{
+	/*color:#0070c7;*/color: #b0382d;
+	font-size:16px;
+	padding-left:10px;
+	
+	}
+.location a{
+	/*color:#0070c7;*/color: #b0382d;font-size:18px; font-weight:bold;
+	}
+.possplit {
+    background-image: url(images/ssdot2020.png);
+    padding: 0px 7px;
+}
+.infotitle{
+	font-size:24px;
+	/*color:#0673c8;*/color: #b0382d;
+	}
+.wp_articlecontent,.wp_articlecontent p{
+	font-size:16px;
+	line-height:36px;
+	}
+.nav-item.i1 {
+padding-left:550px;
+}
+.wp_nav .nav-item a span.item-name {
+     display: inline-block;
+    padding: 5px 25px;
+    line-height: 22px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #7f7f7f;
+}
+.wp_nav .nav-item a:hover, .wp_nav li.nav-item a.parent {
+	/*color: #309cf0;*/
+	border-bottom:4px solid #309cf0;*/
+	color: #b0382d; 
+	border-bottom:4px solid #b0382d;
+} 
+.wp_nav .sub-nav .nav-item a {/*二级下拉菜单*/
+	font-size: 14px;
+	font-weight: normal;
+	text-align: left;
+	border-top: 1px solid #ececec;
+	min-width: 120px;
+}
+.wp_nav .sub-nav .nav-item a.parent:hover {
+	background:#eee;
+	color:#7f7f7f;
+}
+.wp_nav .sub-nav .nav-item a.parent:hover span.item-name{/*color: #309cf0;*/  color: #b0382d;}/*子菜单选中时颜色*/
+.wp_nav .sub-nav {display:block; width:100%; position:absolute; z-index:200; visibility:hidden; border:0px solid #ccc;border-top:none;}/*子菜单边框*/
+.wp_nav .sub-nav .nav-item a span.item-name {
+	padding: 0 10px;
+	height: 40px;
+	line-height: 38px;
+	font-size:14px;
+	color: #7f7f7f;
+}		/**子菜单栏目高度与边距**/
+.wp_nav .nav-item a.parent:hover{/*color: #309cf0;*/ color: #b0382d;}
+.wp_nav .nav-item a.parent:hover span.item-name{/*color: #309cf0;*/ color: #b0382d; }/*菜单选中时颜色*/
+.wp_nav .nav-item a.parent span.item-name{/*color: #309cf0;*/  color: #b0382d;}
+
+.wp_article_list .list_item {
+   border-bottom:0px dashed #ccc; 
+}
+
+@media screen and (max-width: 999px) {
+.focus_title{display:none;}
+}
+
+
+.wp-inner .content1 .clearfix{
+margin-left:-30px; 
+display:inline-block;}
+.cbox-center2 {
+    width: 20%;
+    margin: 10px 0px 30px;
+    float: left;
+}
+.cbox-center3 {
+   width: 20%;
+    margin: 10px 0px 30px;
+    float: left;
+}
+.cbox-center4 {
+  width: 20%;
+    margin: 10px 0px 30px;
+    float: left;
+}
+.cbox-center5 {
+  width: 20%;
+    margin: 10px 0px 30px;
+    float: left;
+}
+.cbox-center6 {
+  width: 20%;
+    margin: 10px 0px 30px;
+    float: left;
+}
+.wp_nav .nav-item a span.item-name {
+  
+    padding: 5px 25px;
+    
+}
